@@ -1,1 +1,45 @@
-[]
+- issuer: https://token.actions.githubusercontent.com
+  principals:
+    - repository: open-component-model/delivery-dashboard
+  permissions:
+    contents: write
+    pull-requests: read
+    workflows: write
+  repositories:
+    - delivery-dashboard
+- issuer: https://token.actions.githubusercontent.com
+  principals:
+    - repository: open-component-model/delivery-database
+  permissions:
+    contents: write
+    pull-requests: read
+    workflows: write
+  repositories:
+    - delivery-database
+- issuer: https://token.actions.githubusercontent.com
+  principals:
+    - repository: open-component-model/delivery-service
+  permissions:
+    contents: write
+    pull-requests: write
+    workflows: write
+  repositories:
+    - delivery-service
+- issuer: https://token.actions.githubusercontent.com
+  principals:
+    - repository: open-component-model/prometheus
+  permissions:
+    contents: write
+    pull-requests: read
+    workflows: write
+  repositories:
+    - prometheus
+- issuer: https://token.actions.githubusercontent.com
+  principals:
+    - repository: open-component-model/signing-server
+  permissions:
+    contents: write
+    pull-requests: read
+    workflows: write
+  repositories:
+    - signing-server
