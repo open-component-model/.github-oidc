@@ -3,7 +3,7 @@
     - repository: open-component-model/delivery-dashboard
   permissions:
     contents: write
-    pull-requests: read
+    pull-requests: write
     workflows: write
   repositories:
     - delivery-dashboard
@@ -12,7 +12,7 @@
     - repository: open-component-model/delivery-database
   permissions:
     contents: write
-    pull-requests: read
+    pull-requests: write
     workflows: write
   repositories:
     - delivery-database
@@ -30,7 +30,7 @@
     - repository: open-component-model/prometheus
   permissions:
     contents: write
-    pull-requests: read
+    pull-requests: write
     workflows: write
   repositories:
     - prometheus
@@ -39,7 +39,7 @@
     - repository: open-component-model/signing-server
   permissions:
     contents: write
-    pull-requests: read
+    pull-requests: write
     workflows: write
   repositories:
     - signing-server
