@@ -4,9 +4,6 @@ This repository contains the OIDC federation configuration to allow trust-based 
 repositories contained in the `open-component-model` organization. See below for more information
 on the [GitHub OIDC Federation service](https://github.com/gardener/github-oidc-federation).
 
-This is a private repository to ensure that internal references (e.g. internal issuer-URLs) are not
-leaked to the public.
-
 # GitHub OIDC Federation Service
 
 The GitHub OIDC Federation service provides the capability to exchange an OIDC identity token for
