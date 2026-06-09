@@ -1,39 +1,39 @@
 - issuer: https://token.actions.githubusercontent.com
   principals:
-    - repository: open-component-model/delivery-dashboard
+    - repository: open-component-model/odg-ui
   permissions:
     contents: write
     pull-requests: write
     workflows: write
   repositories:
-    - delivery-dashboard
+    - odg-ui
 - issuer: https://token.actions.githubusercontent.com
   principals:
-    - repository: open-component-model/delivery-database
+    - repository: open-component-model/odg-core
   permissions:
     contents: write
     pull-requests: write
     workflows: write
   repositories:
-    - delivery-database
+    - odg-core
 - issuer: https://token.actions.githubusercontent.com
   principals:
-    - repository: open-component-model/delivery-service
+    - repository: open-component-model/odg-observability
   permissions:
     contents: write
     pull-requests: write
     workflows: write
   repositories:
-    - delivery-service
+    - odg-observability
 - issuer: https://token.actions.githubusercontent.com
   principals:
-    - repository: open-component-model/prometheus
+    - repository: open-component-model/open-delivery-gear
   permissions:
     contents: write
     pull-requests: write
     workflows: write
   repositories:
-    - prometheus
+    - open-delivery-gear
 - issuer: https://token.actions.githubusercontent.com
   principals:
     - repository: open-component-model/signing-server
